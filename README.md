@@ -24,7 +24,7 @@ bash ~/jvim/debian_install.sh
 3. In pane 1, start iPython, then press f1.
 
 ### Commands
-f1 -> Clears all output and restarts iPython.
-f2 -> Runs code from top of file to nearest delimiter below cursor.
-f3 -> Runs code between two delimiters.
-f4 -> Runs selected code.
+`f1` -->  Clears all output and restarts iPython.  
+`f2` -->  Runs code from top of file to nearest delimiter below cursor.  
+`f3` -->  Runs code between two delimiters.  
+`f4` -->  Runs selected code.  
