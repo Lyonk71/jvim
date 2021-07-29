@@ -17,3 +17,14 @@ For Debian/Mint/Ubuntu:
 ```
 bash ~/jvim/debian_install.sh
 ```
+
+### How to Start jvim
+1. Start tmux, and create two panes.
+2. In pane 0, open a `.py` file with vim.
+3. In pane 1, start iPython, then press f1.
+
+### Commands
+f1 -> Clears all output and restarts iPython.
+f2 -> Runs code from top of file to nearest delimiter below cursor.
+f3 -> Runs code between two delimiters.
+f4 -> Runs selected code.
