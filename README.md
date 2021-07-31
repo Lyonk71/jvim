@@ -1,7 +1,7 @@
 # jvim
 For a Jupyter Notebook like experience in Vim.
 
-*Note to advanced users - Using the installers below will replace your .vimrc and .tmux.comf. If you care, it should be easy enough to fork the repo and update those files to meet your needs.*
+*Note to advanced users - Using the installers below will replace your .vimrc and .tmux.comf. If you care, you can fork the repo and update the .vimrc and .tmux.comf to meet your needs - doing so won't break the install scripts.*
 
 ## Installation
 ### Download the repository:
