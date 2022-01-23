@@ -28,6 +28,10 @@ Plugin 'instant-markdown/vim-instant-markdown', {'rtp': 'after'}
 " coffescript
 Plugin 'kchmck/vim-coffee-script'
 
+" Git
+Plugin 'tpope/vim-fugitive'
+
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
