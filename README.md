@@ -20,6 +20,11 @@ For Debian/Mint/Ubuntu:
 bash ~/jvim/debian_install.sh
 ```
 
+For Fedora/CentOS/RHEL:
+```
+bash ~/jvim/fedora_install.sh
+```
+
 ### How to Start jvim
 1. Start tmux, and create two panes.
 2. In pane 0, open a `.py` file with vim.
