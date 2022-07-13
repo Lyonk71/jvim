@@ -77,27 +77,17 @@ filetype plugin on
 syntax on
 
 let scratch = {}
-let scratch.path = '$HOME/owncloud/vimwiki_journals/scratch'
+let scratch.path = '$HOME/ownCloud/vimwiki_journals/scratch'
+let scratch.index = 'Home'
 let scratch.syntax = 'markdown'
 let scratch.ext = '.md'
 
-let dev_journal = {}
-let dev_journal.path = '$HOME/owncloud/vimwiki_journals/dev_journal'
-let dev_journal.index = 'Home'
-let dev_journal.syntax = 'markdown'
-let dev_journal.ext = '.md'
+let placeholder = {}
+let placeholder.path = '$HOME/ownCloud/vimwiki_journals/placeholder'
+let placeholder.syntax = 'markdown'
+let placeholder.ext = '.md'
 
-let home= {}
-let home.path = '$HOME/owncloud/vimwiki_journals/home'
-let home.syntax = 'markdown'
-let home.ext = '.md'
-
-let work= {}
-let work.path = '$HOME/owncloud/vimwiki_journals/work'
-let work.syntax = 'markdown'
-let work.ext = '.md'
-
-let g:vimwiki_list = [scratch, dev_journal, home, work]
+let g:vimwiki_list = [scratch, placeholder]
 
 " VIMWIKI END ------------------------------------------------
 
