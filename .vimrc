@@ -10,6 +10,12 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
+" Go plugin
+Plugin 'fatih/vim-go'
+
+" Jupyter Python
+Plugin 'jupyter-vim/jupyter-vim'
+
 " python code completion
 Plugin 'davidhalter/jedi-vim'
 
@@ -19,14 +25,8 @@ Plugin 'nvie/vim-flake8'
 " autoformat (make sure to pip install black)
 Plugin 'Chiel92/vim-autoformat'
 
-" vim note-taking
-Plugin 'vimwiki/vimwiki'
-
 " vim instant markdown
 Plugin 'instant-markdown/vim-instant-markdown', {'rtp': 'after'}
-
-" coffescript
-Plugin 'kchmck/vim-coffee-script'
 
 " Git
 Plugin 'tpope/vim-fugitive'
@@ -68,28 +68,12 @@ let g:jedi#popup_on_dot = 0
 " Don't automatically call signatures (options)
 let g:jedi#show_call_signatures = 0
 
-" JVIM END ----------------------------------------------------
-
-" VIMWIKI SETTINGS --------------------------------------------
-"
-set nocompatible
-filetype plugin on
-syntax on
-
-let scratch = {}
-let scratch.path = '$HOME/ownCloud/vimwiki_journals/scratch'
-let scratch.index = 'Home'
-let scratch.syntax = 'markdown'
-let scratch.ext = '.md'
-
-let placeholder = {}
-let placeholder.path = '$HOME/ownCloud/vimwiki_journals/placeholder'
-let placeholder.syntax = 'markdown'
-let placeholder.ext = '.md'
-
-let g:vimwiki_list = [scratch, placeholder]
-
-" VIMWIKI END ------------------------------------------------
+" NERDTREE ---------------------------------------------------
+nnoremap <leader>n :NERDTreeFocus<CR>
+nnoremap <C-n> :NERDTree<CR>
+nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <C-f> :NERDTreeFind<CR>
+" NERDTREE END -----------------------------------------------
 
 " VIM INSTANT MARKDOWN ---------------------------------------
 filetype plugin on
