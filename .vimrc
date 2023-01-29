@@ -11,10 +11,10 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 " copilot
-Plugin github/copilot.vim
+Plugin 'github/copilot.vim'
 
 " rust
-Plugin rust-lang/rust.vim
+Plugin 'rust-lang/rust.vim'
 
 " Go plugin
 Plugin 'fatih/vim-go'
