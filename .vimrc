@@ -10,6 +10,12 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
+" copilot
+Plugin github/copilot.vim
+
+" rust
+Plugin rust-lang/rust.vim
+
 " Go plugin
 Plugin 'fatih/vim-go'
 
@@ -51,7 +57,10 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 
 " VUNDLE END --------------------------------------------------
-
+" rust config ------
+syntax enable
+filetype plugin indent on
+" rust config end ----
 " JVIM BEGIN --------------------------------------------------
 " add the proper PEP 8 indentation
 set tabstop=4
